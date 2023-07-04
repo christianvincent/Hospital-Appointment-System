@@ -135,7 +135,7 @@ if(isset($_POST['submit'])){
             <i class="fas fa-notes-medical"></i>
             <h3>free checkups</h3>
             <p>Get complimentary checkups to prioritize your well-being.</p>
-            <a href="free_checkups.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
@@ -303,7 +303,7 @@ if(isset($_POST['submit'])){
 <!-- appointmenting section starts   --> 
 <section class="appointment" id="appointment">
 
-    <h1 class="heading"> <span>Appointment</span> Now </h1>    
+    <h1 class="heading"> <span>Appoint</span> Now </h1>    
 
     <div class="row">
 
@@ -311,14 +311,16 @@ if(isset($_POST['submit'])){
             <img src="appointment-img.svg" alt="">
         </div>
 
-        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-            <?php
-                if(isset($message)) {
-                    foreach($message as $message) {
-                    echo'<p class ="message">'.$message.'</p>';
-                }
-                }
-            ?>
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <?php 
+            if(isset($message)) {
+                foreach($message as $message) {
+                echo'<p class ="message">'.$message.'</p>';
+            }
+            }
+
+        ?>
+            <p class="message"></p>
                 
             
             <h3>Make an Appointment</h3>
@@ -331,6 +333,10 @@ if(isset($_POST['submit'])){
 
     </div>
 </section>
+    </div>
+
+</section>
+
 <!-- appointmenting section ends -->
 
 <!-- review section starts  -->
