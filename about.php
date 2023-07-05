@@ -1,8 +1,8 @@
 <?php
 // Retrieve necessary data from the database or any other source
-$checkupTitle = "24/7 Ambulance";
+$checkupTitle = "About";
 $checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
-$checkupSchedule = "Open 24/7";
+$checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,17 +10,20 @@ $checkupSchedule = "Open 24/7";
     <title>Free Checkups</title>
     <!-- Add any necessary CSS or JavaScript files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
     <style> 
 
         /* Global Styles */
-        :root{
-            --green:#3EB489;
-            --black:#444;
-            --light-color:#111;
-            --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
-            --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-            --border:.2rem solid var(--green);
+        :root {
+            --green: #3EB489;
+            --black: #444;
+            --light-color: #111;
+            --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+            --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+            --border: .2rem solid var(--green);
         }
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -90,7 +93,7 @@ $checkupSchedule = "Open 24/7";
 
         p {
             font-size: 1.2rem;
-            line-height: 1.5;
+            line-height: 1.6;
             margin-bottom: 1rem;
         }
 
@@ -119,79 +122,55 @@ $checkupSchedule = "Open 24/7";
             text-align: center;
         }
 
-        .btn{
+        .btn {
             display: inline-block;
             margin-top: 1rem;
-            padding: .5rem;
-            padding-left: 1rem;
-            border:var(--border);
+            padding: .5rem 1rem;
+            border: var(--border);
             border-radius: .5rem;
             box-shadow: var(--box-shadow);
-            color:var(--green);
+            color: var(--green);
             cursor: pointer;
             font-size: 1.7rem;
             background: #fff;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none;
         }
 
-        .btn span{
-            padding:.7rem 1rem;
+        .btn span {
+            padding: .7rem 1rem;
             border-radius: .5rem;
             background: var(--green);
-            color:#fff;
+            color: #fff;
             margin-left: .5rem;
         }
 
-        .btn:hover{
+        .btn:hover {
             background: var(--green);
-            color:#fff;
+            color: #fff;
         }
 
-        .btn:hover span{
+        .btn:hover span {
             color: var(--green);
-            background:#fff;
+            background: #fff;
             margin-left: 1rem;
         }
 
     </style>
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>MedAppoint</strong></a>
+        <a href="#" class="logo"><i class="fas fa-stethoscope"></i><strong>MedAppoint</strong></a>
     </header>
 
     <div class="container">
-        <h1>Ambulance Services</h1>
-        <p>Our ambulance services provide reliable and efficient transportation for medical emergencies and non-emergency situations. With a dedicated fleet of ambulances and a team of highly skilled medical professionals, we ensure that patients receive timely and safe transportation to the nearest medical facility.</p>
-        <p>Our ambulance services include:</p>
-        <ul>
-            <li>Emergency medical transportation</li>
-            <li>Non-emergency medical transportation</li>
-            <li>Inter-facility transfers</li>
-            <li>Specialized care during transportation</li>
-            <li>Advanced life support (ALS) and basic life support (BLS) ambulances</li>
-        </ul>
-
-        <h2>How to Request Ambulance Services</h2>
-        <p>If you require our ambulance services, please follow these steps:</p>
-        <ol>
-            <li>Contact our 24/7 helpline at [insert phone number] or visit our website</li>
-            <li>Provide your location and details of the medical situation</li>
-            <li>Our team will assess the situation and dispatch the appropriate ambulance</li>
-            <li>Our trained medical professionals will arrive at your location and provide necessary medical care during transportation</li>
-            <li>You will be safely transported to the designated medical facility</li>
-        </ol>
-
-        <h2>FAQs</h2>
-        <h3>Q: Are the ambulance services available round the clock?</h3>
-        <p>A: Yes, our ambulance services are available 24 hours a day, 7 days a week.</p>
-
-        <h3>Q: Can I request an ambulance for a non-emergency situation?</h3>
-        <p>A: Absolutely! Our ambulance services cater to both emergency and non-emergency situations.</p>
-
-        <h3>Q: Are the medical professionals in the ambulance trained and certified?</h3>
-        <p>A: Yes, all our medical professionals in the ambulance are highly trained, experienced, and certified in providing pre-hospital care.</p>
-
-        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
+        <h1>About MedAppoint</h1>
+        <p>Welcome to MedAppoint, your all-in-one platform for seamless scheduling and appointment management in the healthcare industry. Our mission is to revolutionize the way patients and healthcare providers connect and streamline the entire appointment process.</p>
+        <p>At MedAppoint, we understand the challenges faced by both patients and healthcare facilities when it comes to managing appointments. Our platform provides a user-friendly interface that simplifies the entire process, allowing patients to easily find and book appointments with their preferred healthcare providers.</p>
+        <p>With MedAppoint, you can say goodbye to long waiting times and phone calls to schedule appointments. Our intuitive and efficient platform enables you to access real-time availability of healthcare providers, choose a convenient time slot, and secure your appointment in just a few clicks.</p>
+        <p>Our commitment to quality extends beyond the booking process. We ensure that all healthcare providers on our platform are verified and meet the highest standards of expertise and care. You can have peace of mind knowing that you'll receive top-quality treatment from experienced professionals.</p>
+        <p>Whether you need a routine check-up, specialized consultation, or diagnostic tests, MedAppoint is here to make the process smooth and hassle-free. We believe that managing your healthcare should be as easy as managing any other aspect of your life, and we're dedicated to making that a reality.</p>
     </div>
 
     <footer>

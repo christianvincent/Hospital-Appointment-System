@@ -1,6 +1,6 @@
 <?php
 // Retrieve necessary data from the database or any other source
-$checkupTitle = "Free Checkups";
+$checkupTitle = "Medicine";
 $checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
 $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
@@ -157,50 +157,45 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 <body>
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>MedAppoint</strong></a>
-        
     </header>
 
     <div class="container">
-        <h1><?php echo $checkupTitle; ?></h1>
-        <p><?php echo $checkupDescription; ?></p>
-        <p><strong>Schedule:</strong> <?php echo $checkupSchedule; ?></p>
-
-        <h2>Why Choose Our Free Checkups?</h2>
+        <h1>Medicine Section</h1>
+        <p>Our medicine section offers a wide range of high-quality medications to cater to your healthcare needs. We strive to provide reliable and affordable medicines to our patients.</p>
+        <p>Key features of our medicine section:</p>
         <ul>
-            <li>Comprehensive health assessments</li>
-            <li>Experienced and qualified medical professionals</li>
-            <li>State-of-the-art facilities and equipment</li>
-            <li>Personalized care and attention</li>
-            <li>Fast and accurate results</li>
+            <li>Extensive selection of prescription and over-the-counter medications</li>
+            <li>High-quality branded and generic medicines</li>
+            <li>Competitive prices and discounts</li>
+            <li>Convenient online ordering and delivery options</li>
+            <li>Expert advice from licensed pharmacists</li>
         </ul>
 
-        <h2>How to Book an Appointment</h2>
-        <p>To book your free checkup appointment, simply follow these steps:</p>
+        <h2>How to Order Medicines</h2>
+        <p>To order medicines from our pharmacy, please follow these steps:</p>
         <ol>
-            <li>Visit our website or call our clinic</li>
-            <li>Provide your personal details and preferred appointment date</li>
-            <li>Our team will contact you to confirm the appointment</li>
-            <li>Arrive at the clinic on the scheduled date and time</li>
-            <li>Enjoy your free checkup!</li>
+            <li>Visit our website or call our pharmacy</li>
+            <li>Provide the details of the prescribed medication or the medicine you need</li>
+            <li>Our team will confirm the availability and provide you with the total cost</li>
+            <li>Make the payment and provide the necessary delivery information</li>
+            <li>Your medicines will be promptly delivered to your doorstep</li>
         </ol>
 
         <h2>FAQs</h2>
-        <h3>Q: How long does a free checkup usually take?</h3>
-        <p>A: The duration of a free checkup depends on various factors, including the specific tests and assessments involved. On average, it may take around 1-2 hours.</p>
+        <h3>Q: Do you provide both generic and branded medicines?</h3>
+        <p>A: Yes, we offer a wide range of both generic and branded medications.</p>
 
-        <h3>Q: Are the free checkups available to everyone?</h3>
-        <p>A: Our free checkups are available to individuals of all ages and backgrounds. However, due to high demand, appointments may be limited.</p>
+        <h3>Q: Can I order prescription medicines online?</h3>
+        <p>A: Yes, we accept online orders for prescription medications. However, you may need to provide a valid prescription for certain medications.</p>
 
-        <h3>Q: Can I bring someone with me to the checkup?</h3>
-        <p>A: Yes, you are welcome to bring a family member or friend for support during your free checkup.</p>
-        <a href="http://localhost:3000/index.php#appointment" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
+        <h3>Q: What payment methods do you accept?</h3>
+        <p>A: We accept various payment methods, including credit cards, debit cards, and online payment systems.</p>
+
+        <a href="http://localhost:3000/index.php" class="btn"> Order Medicines <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
         <p>&copy; <?php echo date('Y'); ?> MedAppoint. All rights reserved.</p>
     </footer>
-
-    <!-- Add any necessary JavaScript files or scripts -->
-    <script src="script.js"></script>
 </body>
 </html>

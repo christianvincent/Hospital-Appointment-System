@@ -1,6 +1,6 @@
 <?php
 // Retrieve necessary data from the database or any other source
-$checkupTitle = "Free Checkups";
+$checkupTitle = "Time";
 $checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
 $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
@@ -157,50 +157,44 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 <body>
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>MedAppoint</strong></a>
-        
     </header>
 
     <div class="container">
-        <h1><?php echo $checkupTitle; ?></h1>
-        <p><?php echo $checkupDescription; ?></p>
-        <p><strong>Schedule:</strong> <?php echo $checkupSchedule; ?></p>
-
-        <h2>Why Choose Our Free Checkups?</h2>
+        <h1>Time Section</h1>
+        <p>At MedAppoint, we value your time and strive to provide efficient healthcare services. We understand the importance of minimizing wait times and ensuring timely appointments for our patients.</p>
+        <p>Key features of our time management:</p>
         <ul>
-            <li>Comprehensive health assessments</li>
-            <li>Experienced and qualified medical professionals</li>
-            <li>State-of-the-art facilities and equipment</li>
-            <li>Personalized care and attention</li>
-            <li>Fast and accurate results</li>
+            <li>Optimized appointment scheduling to reduce waiting times</li>
+            <li>Efficient patient flow management to minimize delays</li>
+            <li>Prompt start times for appointments</li>
+            <li>Real-time updates on any changes or delays</li>
+            <li>Dedicated staff to manage time and ensure smooth operations</li>
         </ul>
 
-        <h2>How to Book an Appointment</h2>
-        <p>To book your free checkup appointment, simply follow these steps:</p>
-        <ol>
-            <li>Visit our website or call our clinic</li>
-            <li>Provide your personal details and preferred appointment date</li>
-            <li>Our team will contact you to confirm the appointment</li>
-            <li>Arrive at the clinic on the scheduled date and time</li>
-            <li>Enjoy your free checkup!</li>
-        </ol>
+        <h2>Why Choose Our Time Management Approach?</h2>
+        <ul>
+            <li>Minimized waiting times for appointments</li>
+            <li>Improved patient satisfaction and experience</li>
+            <li>Enhanced efficiency and productivity for healthcare providers</li>
+            <li>Reduced stress and anxiety associated with long waiting times</li>
+            <li>Streamlined operations for a more organized healthcare facility</li>
+        </ul>
 
         <h2>FAQs</h2>
-        <h3>Q: How long does a free checkup usually take?</h3>
-        <p>A: The duration of a free checkup depends on various factors, including the specific tests and assessments involved. On average, it may take around 1-2 hours.</p>
+        <h3>Q: How do you manage waiting times for appointments?</h3>
+        <p>A: We use advanced scheduling systems and optimize appointment durations to ensure efficient patient flow. Our staff closely monitors appointment timings and makes necessary adjustments to minimize waiting times.</p>
 
-        <h3>Q: Are the free checkups available to everyone?</h3>
-        <p>A: Our free checkups are available to individuals of all ages and backgrounds. However, due to high demand, appointments may be limited.</p>
+        <h3>Q: What if there are delays or changes to my appointment time?</h3>
+        <p>A: In the rare event of delays or changes to your appointment time, we will notify you as soon as possible. We strive to keep you informed and provide updates to minimize any inconvenience.</p>
 
-        <h3>Q: Can I bring someone with me to the checkup?</h3>
-        <p>A: Yes, you are welcome to bring a family member or friend for support during your free checkup.</p>
-        <a href="http://localhost:3000/index.php#appointment" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
+        <h3>Q: How can I provide feedback on my experience?</h3>
+        <p>A: We value your feedback and suggestions. You can provide feedback through our website, email, or by speaking with our staff. Your input helps us improve our services and further enhance our time management approach.</p>
+
+        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
         <p>&copy; <?php echo date('Y'); ?> MedAppoint. All rights reserved.</p>
     </footer>
-
-    <!-- Add any necessary JavaScript files or scripts -->
-    <script src="script.js"></script>
 </body>
 </html>

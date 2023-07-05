@@ -1,6 +1,6 @@
 <?php
 // Retrieve necessary data from the database or any other source
-$checkupTitle = "Free Checkups";
+$checkupTitle = "Facilities";
 $checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
 $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
@@ -157,50 +157,44 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 <body>
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>MedAppoint</strong></a>
-        
     </header>
 
     <div class="container">
-        <h1><?php echo $checkupTitle; ?></h1>
-        <p><?php echo $checkupDescription; ?></p>
-        <p><strong>Schedule:</strong> <?php echo $checkupSchedule; ?></p>
-
-        <h2>Why Choose Our Free Checkups?</h2>
+        <h1>Facilities Section</h1>
+        <p>Our facilities are designed to provide a comfortable and welcoming environment for our patients. We strive to offer state-of-the-art facilities equipped with the latest medical technology.</p>
+        <p>Key features of our facilities:</p>
         <ul>
-            <li>Comprehensive health assessments</li>
-            <li>Experienced and qualified medical professionals</li>
-            <li>State-of-the-art facilities and equipment</li>
-            <li>Personalized care and attention</li>
-            <li>Fast and accurate results</li>
+            <li>Modern and spacious waiting areas</li>
+            <li>Clean and hygienic examination rooms</li>
+            <li>Advanced medical equipment and technology</li>
+            <li>Comfortable patient rooms</li>
+            <li>Accessible and well-maintained facilities</li>
         </ul>
 
-        <h2>How to Book an Appointment</h2>
-        <p>To book your free checkup appointment, simply follow these steps:</p>
-        <ol>
-            <li>Visit our website or call our clinic</li>
-            <li>Provide your personal details and preferred appointment date</li>
-            <li>Our team will contact you to confirm the appointment</li>
-            <li>Arrive at the clinic on the scheduled date and time</li>
-            <li>Enjoy your free checkup!</li>
-        </ol>
+        <h2>Why Choose Our Facilities?</h2>
+        <ul>
+            <li>Conducive environment for healing and recovery</li>
+            <li>Efficient and streamlined processes</li>
+            <li>Skilled and compassionate healthcare professionals</li>
+            <li>Commitment to patient safety and satisfaction</li>
+            <li>Comprehensive medical services under one roof</li>
+        </ul>
 
         <h2>FAQs</h2>
-        <h3>Q: How long does a free checkup usually take?</h3>
-        <p>A: The duration of a free checkup depends on various factors, including the specific tests and assessments involved. On average, it may take around 1-2 hours.</p>
+        <h3>Q: Are your facilities wheelchair accessible?</h3>
+        <p>A: Yes, our facilities are designed to be wheelchair accessible to accommodate individuals with mobility needs.</p>
 
-        <h3>Q: Are the free checkups available to everyone?</h3>
-        <p>A: Our free checkups are available to individuals of all ages and backgrounds. However, due to high demand, appointments may be limited.</p>
+        <h3>Q: Do you have parking facilities available?</h3>
+        <p>A: Yes, we provide parking facilities for the convenience of our patients and visitors.</p>
 
-        <h3>Q: Can I bring someone with me to the checkup?</h3>
-        <p>A: Yes, you are welcome to bring a family member or friend for support during your free checkup.</p>
-        <a href="http://localhost:3000/index.php#appointment" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
+        <h3>Q: Are your facilities child-friendly?</h3>
+        <p>A: Yes, we strive to create a child-friendly environment by offering amenities and services tailored to the needs of children.</p>
+
+        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
         <p>&copy; <?php echo date('Y'); ?> MedAppoint. All rights reserved.</p>
     </footer>
-
-    <!-- Add any necessary JavaScript files or scripts -->
-    <script src="script.js"></script>
 </body>
 </html>

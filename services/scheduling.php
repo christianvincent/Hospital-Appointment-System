@@ -1,6 +1,6 @@
 <?php
 // Retrieve necessary data from the database or any other source
-$checkupTitle = "Free Checkups";
+$checkupTitle = "Scheduling";
 $checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
 $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
@@ -157,50 +157,44 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 <body>
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>MedAppoint</strong></a>
-        
     </header>
 
     <div class="container">
-        <h1><?php echo $checkupTitle; ?></h1>
-        <p><?php echo $checkupDescription; ?></p>
-        <p><strong>Schedule:</strong> <?php echo $checkupSchedule; ?></p>
-
-        <h2>Why Choose Our Free Checkups?</h2>
-        <ul>
-            <li>Comprehensive health assessments</li>
-            <li>Experienced and qualified medical professionals</li>
-            <li>State-of-the-art facilities and equipment</li>
-            <li>Personalized care and attention</li>
-            <li>Fast and accurate results</li>
-        </ul>
-
-        <h2>How to Book an Appointment</h2>
-        <p>To book your free checkup appointment, simply follow these steps:</p>
+        <h1>Scheduling</h1>
+        <p>At MedAppoint, we strive to make scheduling appointments easy and convenient for our patients. Whether you need a routine checkup or a specialized consultation, our scheduling process ensures a smooth experience.</p>
+        <p>Steps to schedule an appointment:</p>
         <ol>
             <li>Visit our website or call our clinic</li>
-            <li>Provide your personal details and preferred appointment date</li>
-            <li>Our team will contact you to confirm the appointment</li>
+            <li>Provide your personal details and preferred appointment date and time</li>
+            <li>Our team will check the availability and confirm the appointment</li>
+            <li>An appointment confirmation will be sent to you via email or SMS</li>
             <li>Arrive at the clinic on the scheduled date and time</li>
-            <li>Enjoy your free checkup!</li>
         </ol>
 
+        <h2>Why Choose Our Scheduling Services?</h2>
+        <ul>
+            <li>Flexible appointment options to fit your schedule</li>
+            <li>Efficient and responsive appointment booking process</li>
+            <li>Advanced technology for accurate scheduling and reminders</li>
+            <li>Experienced staff to assist with any scheduling queries</li>
+            <li>Timely notifications and updates regarding your appointment</li>
+        </ul>
+
         <h2>FAQs</h2>
-        <h3>Q: How long does a free checkup usually take?</h3>
-        <p>A: The duration of a free checkup depends on various factors, including the specific tests and assessments involved. On average, it may take around 1-2 hours.</p>
+        <h3>Q: How soon can I get an appointment?</h3>
+        <p>A: Appointment availability depends on various factors, including the type of service and the healthcare professional's schedule. We make every effort to accommodate your needs and offer prompt appointments whenever possible.</p>
 
-        <h3>Q: Are the free checkups available to everyone?</h3>
-        <p>A: Our free checkups are available to individuals of all ages and backgrounds. However, due to high demand, appointments may be limited.</p>
+        <h3>Q: Can I reschedule or cancel my appointment?</h3>
+        <p>A: Yes, you can reschedule or cancel your appointment by contacting our clinic at least 24 hours in advance. This allows us to adjust our schedule and offer the appointment slot to another patient.</p>
 
-        <h3>Q: Can I bring someone with me to the checkup?</h3>
-        <p>A: Yes, you are welcome to bring a family member or friend for support during your free checkup.</p>
-        <a href="http://localhost:3000/index.php#appointment" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
+        <h3>Q: What if I have an urgent medical concern?</h3>
+        <p>A: For urgent medical concerns, please call our clinic immediately. Our staff will assess the situation and provide appropriate guidance, including scheduling a same-day appointment if necessary.</p>
+
+        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
         <p>&copy; <?php echo date('Y'); ?> MedAppoint. All rights reserved.</p>
     </footer>
-
-    <!-- Add any necessary JavaScript files or scripts -->
-    <script src="script.js"></script>
 </body>
-</html>
+</
