@@ -75,7 +75,7 @@ if (isset($_POST['submit'])) {
 <section class="home" id="home">
 
     <div class="image">
-        <img src="home-img.svg" alt="">
+        <img src="images/home-img.svg" alt="">
     </div>
 
     <div class="content">
@@ -129,7 +129,7 @@ if (isset($_POST['submit'])) {
     <div class="row">
 
         <div class="image">
-            <img src="about-img.svg" alt="">
+            <img src="images/about-img.svg" alt="">
         </div>
 
         <div class="content">
@@ -157,7 +157,7 @@ if (isset($_POST['submit'])) {
             <i class="fas fa-notes-medical"></i>
             <h3>free checkups</h3>
             <p>Get complimentary checkups to prioritize your well-being.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="services/free_checkups.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
@@ -170,7 +170,7 @@ if (isset($_POST['submit'])) {
         <div class="box">
             <i class="fas fa-user-md"></i>
             <h3>expert doctors</h3>
-            <p>LReceive care from our highly qualified and dedicated doctors.</p>
+            <p>Receive care from our highly qualified and dedicated doctors.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
@@ -224,7 +224,7 @@ if (isset($_POST['submit'])) {
     <div class="box-container">
 
         <div class="box">
-            <img src="doc1.jpg" alt="">
+            <img src="doctors/doc1.jpg" alt="">
             <h3>Dr. Ida Tacata</h3>
             <span>Cardiologist</span>
             <div class="share">
@@ -236,7 +236,7 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="box">
-            <img src="doc3.jpg" alt="">
+            <img src="doctors/doc3.jpg" alt="">
             <h3>Dr. Rouel Mateo M. Azores</h3>
             <span>General Surgeon</span>
             <div class="share">
@@ -248,7 +248,7 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="box">
-            <img src="doc4.jfif" alt="">
+            <img src="doctors/doc4.jfif" alt="">
             <h3>Dr. Consuelo Amparo De Vera</h3>
             <span>Orthopaedic Surgeon</span>
             <div class="share">
@@ -259,7 +259,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div class="box">
-            <img src="doc5.jpg" alt="">
+            <img src="doctors/doc5.jpg" alt="">
             <h3>Dr. Ramon Carlos Miguel Alemany</h3>
             <span>Neuro-surgeon</span>
             <div class="share">
@@ -270,7 +270,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div class="box">
-            <img src="doc7.jpg" alt="">
+            <img src="doctors/doc7.jpg" alt="">
             <h3>Dr. Aurelia Leus</h3>
             <span>Cardiologist</span>
             <div class="share">
@@ -281,7 +281,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div class="box">
-            <img src="doc8.jpg" alt="">
+            <img src="doctors/doc8.jpg" alt="">
             <h3>Dr. Maria Corazon Avancena</h3>
             <span>Pediatric</span>
             <div class="share">
@@ -292,7 +292,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div class="box">
-            <img src="doc9.jpg" alt="">
+            <img src="doctors/doc9.jpg" alt="">
             <h3>Dr. Ma. Teresa B. Abola</h3>
             <span>Cardiologist</span>
             <div class="share">
@@ -303,7 +303,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div class="box">
-            <img src="doc10.jpg" alt="">
+            <img src="doctors/doc10.jpg" alt="">
             <h3>Dr. Tito G. Garrido</h3>
             <span>General Surgeon</span>
             <div class="share">
@@ -330,7 +330,7 @@ if (isset($_POST['submit'])) {
     <div class="row">
 
         <div class="image">
-            <img src="appointment-img.svg" alt="">
+            <img src="images/appointment-img.svg" alt="">
         </div>
 
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
@@ -383,7 +383,7 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="box">
-            <img src="review2.jfif" alt="">
+            <img src="reviews/review2.jfif" alt="">
             <h3>Maria Santos</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -396,7 +396,7 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="box">
-            <img src="review3.jpg" alt="">
+            <img src="reviews/review3.jpg" alt="">
             <h3>John Smith</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -426,7 +426,7 @@ if (isset($_POST['submit'])) {
 
         <div class="box">
             <div class="image">
-                <img src="blog6.jpeg" alt="">
+                <img src="blogs/blog6.jpeg" alt="">
             </div>
             <div class="content">
                 <div class="icon">
@@ -440,7 +440,7 @@ if (isset($_POST['submit'])) {
         </div>
         <div class="box">
             <div class="image">
-                <img src="blog2.jpg" alt="">
+                <img src="blogs/blog2.jpg" alt="">
             </div>
             <div class="content">
                 <div class="icon">
@@ -455,7 +455,7 @@ if (isset($_POST['submit'])) {
         
         <div class="box">
             <div class="image">
-                <img src="blog3.jpg" alt="">
+                <img src="blogs/blog3.jpg" alt="">
             </div>
             <div class="content">
                 <div class="icon">
@@ -469,7 +469,7 @@ if (isset($_POST['submit'])) {
         </div>
         <div class="box">
             <div class="image">
-                <img src="blog 4.webp" alt="">
+                <img src="blogs/blog 4.webp" alt="">
             </div>
             <div class="content">
                 <div class="icon">

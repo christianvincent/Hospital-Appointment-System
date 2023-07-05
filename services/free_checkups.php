@@ -193,7 +193,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 
         <h3>Q: Can I bring someone with me to the checkup?</h3>
         <p>A: Yes, you are welcome to bring a family member or friend for support during your free checkup.</p>
-        <a href="indext.php" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#appointment" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
