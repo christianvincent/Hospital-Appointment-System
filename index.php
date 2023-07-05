@@ -228,10 +228,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Ida Tacata</h3>
             <span>Cardiologist</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/profile.php?id=100088238226503" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
 
@@ -240,10 +237,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Rouel Mateo M. Azores</h3>
             <span>General Surgeon</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/rouelmazores" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
 
@@ -252,10 +246,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Consuelo Amparo De Vera</h3>
             <span>Orthopaedic Surgeon</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/consuelo.devera.94" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
         <div class="box">
@@ -263,10 +254,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Ramon Carlos Miguel Alemany</h3>
             <span>Neuro-surgeon</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/ramoncarlosmiguel.alemany" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
         <div class="box">
@@ -274,32 +262,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Aurelia Leus</h3>
             <span>Cardiologist</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="doctors/doc8.jpg" alt="">
-            <h3>Dr. Maria Corazon Avancena</h3>
-            <span>Pediatric</span>
-            <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="doctors/doc9.jpg" alt="">
-            <h3>Dr. Ma. Teresa B. Abola</h3>
-            <span>Cardiologist</span>
-            <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/aurelia.leus.3" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
         <div class="box">
@@ -307,10 +270,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Tito G. Garrido</h3>
             <span>General Surgeon</span>
             <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/titogarridomd/" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
 
