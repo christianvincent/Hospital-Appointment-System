@@ -330,7 +330,7 @@ if (isset($_POST['submit'])) {
     <div class="box-container">
 
         <div class="box">
-            <img src="review1.jpg">
+            <img src="reviews/review1.jpg">
             <h3>Lisa Johnson</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
