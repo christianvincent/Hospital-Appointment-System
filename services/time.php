@@ -190,7 +190,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         <h3>Q: How can I provide feedback on my experience?</h3>
         <p>A: We value your feedback and suggestions. You can provide feedback through our website, email, or by speaking with our staff. Your input helps us improve our services and further enhance our time management approach.</p>
 
-        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#services" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>

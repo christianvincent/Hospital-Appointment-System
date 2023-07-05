@@ -191,7 +191,7 @@ $checkupSchedule = "Open 24/7";
         <h3>Q: Are the medical professionals in the ambulance trained and certified?</h3>
         <p>A: Yes, all our medical professionals in the ambulance are highly trained, experienced, and certified in providing pre-hospital care.</p>
 
-        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#services" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>

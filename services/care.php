@@ -190,7 +190,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         <h3>Q: Can I get a second opinion on my diagnosis or treatment plan?</h3>
         <p>A: Absolutely! We understand the importance of second opinions. Our healthcare professionals are open to discussing your concerns and providing second opinions to ensure you make informed decisions about your care.</p>
 
-        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#services" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>

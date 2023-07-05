@@ -190,7 +190,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         <h3>Q: What if I have an urgent medical concern?</h3>
         <p>A: For urgent medical concerns, please call our clinic immediately. Our staff will assess the situation and provide appropriate guidance, including scheduling a same-day appointment if necessary.</p>
 
-        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#services" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>

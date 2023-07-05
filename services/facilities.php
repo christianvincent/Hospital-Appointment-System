@@ -190,7 +190,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         <h3>Q: Are your facilities child-friendly?</h3>
         <p>A: Yes, we strive to create a child-friendly environment by offering amenities and services tailored to the needs of children.</p>
 
-        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#services" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>

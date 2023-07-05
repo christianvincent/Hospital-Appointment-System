@@ -191,7 +191,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         <h3>Q: What payment methods do you accept?</h3>
         <p>A: We accept various payment methods, including credit cards, debit cards, and online payment systems.</p>
 
-        <a href="http://localhost:3000/index.php" class="btn"> Order Medicines <span class="fas fa-chevron-right"></span> </a>
+        <a href="http://localhost:3000/index.php#services" class="btn"> Order Medicines <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
