@@ -1,22 +1,44 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','contact_db') or die('connection failed');
+$conn = mysqli_connect('localhost', 'root', '', 'contact_db') or die('connection failed');
 
-if(isset($_POST['submit'])){
+$message = array(); // Initialize an empty array to store validation messages
 
-   $name = mysqli_real_escape_string($conn, $_POST['name']);
-   $email = mysqli_real_escape_string($conn, $_POST['email']);
-   $number = $_POST['number'];
-   $date = $_POST['date'];
+if (isset($_POST['submit'])) {
+    // Validate name field
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    if (empty($name)) {
+        $message[] = 'Please enter your name.';
+    }
 
-   $insert = mysqli_query($conn, "INSERT INTO `contact_form`(name, email, number, date) VALUES('$name','$email','$number','$date')") or die('query failed');
+    // Validate email field
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    if (empty($email)) {
+        $message[] = 'Please enter your email.';
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $message[] = 'Please enter a valid email address.';
+    }
 
-   if($insert){
-      $message[] = 'appointment made successfully!';
-   }else{
-      $message[] = 'appointment failed';
-   }
+    // Validate number field
+    $number = $_POST['number'];
+    if (empty($number)) {
+        $message[] = 'Please enter your number.';
+    } elseif (!preg_match('/^\d{11}$/', $number)) {
+        $message[] = 'Please enter a 11-digit number.';
+    }
+    
+    // If there are no validation errors, insert the data into the database
+    if (empty($message)) {
+        $date = $_POST['date'];
 
+        $insert = mysqli_query($conn, "INSERT INTO contact_form (name, email, number, date) VALUES ('$name', '$email', '$number', '$date')") or die('query failed');
+
+        if ($insert) {
+            $message[] = 'Appointment made successfully!';
+        } else {
+            $message[] = 'Appointment failed.';
+        }
+    }
 }
 ?>
 
