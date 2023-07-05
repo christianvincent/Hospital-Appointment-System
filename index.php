@@ -346,8 +346,8 @@ if (isset($_POST['submit'])) {
                 
             
             <h3>Make an Appointment</h3>
-            <input type="text" name="name" placeholder="Your name" class="box">
-            <input type="number" name="number" placeholder="Your number" class="box">
+            <input type="text" name="name" placeholder="Last name, Given name, Middle Initial" class="box">
+            <input type="number" name="number" placeholder="Your 11-digit number" class="box">
             <input type="email" name="email" placeholder="Your email" class="box">
             <input type="date" name="date" class="box">
             <input type="submit" name="submit" value="Appointment Now" class="btn">
