@@ -323,127 +323,14 @@ if (isset($_POST['submit'])) {
 
 <!-- review section starts  -->
 
-<section class="review" id="review">
-    
-    <h1 class="heading">Client's <span>Review</span></h1>
 
-    <div class="box-container">
-
-        <div class="box">
-            <img src="reviews/review1.jpg">
-            <h3>Lisa Johnson</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="text">I had an amazing experience using MedAppoint! The appointment process was quick and hassle-free, and the staff was incredibly friendly and helpful. I highly recommend this platform for scheduling medical appointments.</p>
-        </div>
-
-        <div class="box">
-            <img src="reviews/review2.jfif" alt="">
-            <h3>Maria Santos</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="text">Napaka-simpleng gamitin ng MedAppoint! Malinis at maayos ang serbisyo, at ang mga doktor ay napakahusay. Napaaga ang aking pagpapagamot at malaki ang pasasalamat ko sa kanila.</p>
-        </div>
-
-        <div class="box">
-            <img src="reviews/review3.jpg" alt="">
-            <h3>John Smith</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="text">I had a great experience with MedAppoint! The appointment system is easy to use, and the doctors are highly professional and knowledgeable. I highly recommend their services.</p>
-        </div>
-
-       
-    </div>
-
-</section>
 
 
 <!-- review section ends -->
 
 <!-- blogs section starts  -->
 
-<section class="blogs" id="blogs">
 
-    <h1 class="heading"> our <span>blogs</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="blogs/blog6.jpeg" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"><i class="fas fa-calendar"></i> 10 April, 2021</a>
-                    <a href="#"><i class="fas fa-user"></i> by Jessica Anderson</a>
-                </div>
-                <h3>The Benefits of Eating Healthy Food</h3>
-                <p>Discover the importance of maintaining a healthy diet and how it can improve your overall well-being. Learn about the nutrients and advantages of incorporating nutritious foods into your meals.</p>
-                <a href="#" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
-            </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="blogs/blog2.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"><i class="fas fa-calendar"></i> 15 January, 2022</a>
-                    <a href="#"><i class="fas fa-user"></i> by Emily Smith</a>
-                </div>
-                <h3>The Importance of Mental Health Awareness</h3>
-                <p>Gain insights into the significance of mental health awareness and the impact it has on individuals. Explore ways to prioritize mental well-being and foster a supportive environment for mental health.</p>
-                <a href="#" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
-            </div>
-        </div>
-        
-        <div class="box">
-            <div class="image">
-                <img src="blogs/blog3.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"><i class="fas fa-calendar"></i> 10 February, 2020</a>
-                    <a href="#"><i class="fas fa-user"></i> by John Fritz</a>
-                </div>
-                <h3>Tips for a Restful Night's Sleep</h3>
-                <p>Uncover effective strategies and techniques for achieving a restful night's sleep. Learn about the importance of quality sleep and discover practical tips to improve your sleep hygiene.</p>
-                <a href="#" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
-            </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="blogs/blog 4.webp" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"><i class="fas fa-calendar"></i> 21 November, 2022</a>
-                    <a href="#"><i class="fas fa-user"></i> by Alex Rey</a>
-                </div>
-                <h3>Exploring the Benefits of Regular Exercise</h3>
-                <p>Delve into the numerous benefits of incorporating regular exercise into your lifestyle. Discover how physical activity can boost your physical and mental health, enhance energy levels, and improve overall well-being.</p>
-                <a href="#" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
-            </div>
-        </div>
-    </div>
-
-</section>
 
 <!-- blogs section ends -->
 
