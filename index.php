@@ -164,49 +164,49 @@ if (isset($_POST['submit'])) {
             <i class="fas fa-ambulance"></i>
             <h3>24/7 ambulance</h3>
             <p>Emergency ambulance service available round the clock.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="services/ambulance.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-user-md"></i>
             <h3>expert doctors</h3>
             <p>Receive care from our highly qualified and dedicated doctors.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="services/doctors.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-pills"></i>
             <h3>medicines</h3>
             <p>Access a wide range of quality medications for your health needs.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="services/medicines.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-procedures"></i>
             <h3>bed facility</h3>
             <p>Experience comfort and rest in our modern bed facilities.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="services/facilities.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-heartbeat"></i>
             <h3>total care</h3>
             <p>Receive comprehensive care tailored to your unique needs.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="services/care.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-calendar-alt"></i>
             <h3>Convenient Scheduling</h3>
             <p>Easily book appointments online with our user-friendly scheduling system.</p>
-            <a href="#" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
+            <a href="services/scheduling.php" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
         </div>
         
         <div class="box">
             <i class="fas fa-clock"></i>
             <h3>Efficient Time Management</h3>
             <p>Streamline your schedule and optimize resource allocation with our efficient time management tools.</p>
-            <a href="#" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
+            <a href="services/time.php" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
         </div>
 
     </div>
