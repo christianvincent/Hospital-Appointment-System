@@ -63,8 +63,6 @@ if (isset($_POST['submit'])) {
             <a href="#services">services</a>
             <a href="#doctors">doctors</a>
             <a href="#appointment">appointment</a>
-            <a href="#review">review</a>
-            <a href="#blogs">blogs</a>
         </nav>
 
 </header>
@@ -136,7 +134,7 @@ if (isset($_POST['submit'])) {
             <h3>take the world's best quality treatment</h3>
             <p>Welcome to MedAppoint, your all-in-one platform for seamless scheduling and appointment management in the healthcare industry. Our website is designed to bridge the gap between hospitals and patients, providing a user-friendly interface that simplifies the appointment process</p>
             <p>At MedAppoint, we understand the importance of efficient healthcare services and the need for patients to easily access and manage their appointments. Our platform empowers patients with the ability to conveniently schedule appointments, reschedule or cancel them, all from the comfort of their homes. We aim to save your time and streamline the healthcare experience.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            <a href="about.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
     </div>
@@ -347,13 +345,12 @@ if (isset($_POST['submit'])) {
             <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
             <a href="#doctors"> <i class="fas fa-chevron-right"></i> doctors </a>
             <a href="#appointment"> <i class="fas fa-chevron-right"></i> appointment </a>
-            <a href="#review"> <i class="fas fa-chevron-right"></i> review </a>
-            <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs </a>
         </div>
 
         <div class="box">
             <h3>our services</h3>
-            <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
+            <a href="services/free_checkups.php"> <i class="fas fa-chevron-right"></i> Free Checkups </a>
+            <a href="services/ambulance.php"> <i class="fas fa-chevron-right"></i> Ambulance Service </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
             <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>

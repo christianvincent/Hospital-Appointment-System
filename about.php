@@ -171,6 +171,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         <p>With MedAppoint, you can say goodbye to long waiting times and phone calls to schedule appointments. Our intuitive and efficient platform enables you to access real-time availability of healthcare providers, choose a convenient time slot, and secure your appointment in just a few clicks.</p>
         <p>Our commitment to quality extends beyond the booking process. We ensure that all healthcare providers on our platform are verified and meet the highest standards of expertise and care. You can have peace of mind knowing that you'll receive top-quality treatment from experienced professionals.</p>
         <p>Whether you need a routine check-up, specialized consultation, or diagnostic tests, MedAppoint is here to make the process smooth and hassle-free. We believe that managing your healthcare should be as easy as managing any other aspect of your life, and we're dedicated to making that a reality.</p>
+        <a href="http://localhost:3000/index.php" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
