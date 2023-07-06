@@ -85,7 +85,7 @@ if (isset($_POST['submit'])) {
 </section>
 
 <!-- home section ends -->
-
+<!-- comment -->
 <!-- icons section starts  -->
 
 <section class="icons-container">
