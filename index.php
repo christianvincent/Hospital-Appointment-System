@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
             <a href="#services">services</a>
             <a href="#doctors">doctors</a>
             <a href="#appointment">appointment</a>
-        <a href="Login page/login.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
+        <a href="Login/login.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
         </nav>
 
 </header>
@@ -160,27 +160,6 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="box">
-            <i class="fas fa-ambulance"></i>
-            <h3>24/7 ambulance</h3>
-            <p>Emergency ambulance service available round the clock.</p>
-            <a href="services/ambulance.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-user-md"></i>
-            <h3>expert doctors</h3>
-            <p>Receive care from our highly qualified and dedicated doctors.</p>
-            <a href="services/doctors.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-pills"></i>
-            <h3>medicines</h3>
-            <p>Access a wide range of quality medications for your health needs.</p>
-            <a href="services/medicines.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
             <i class="fas fa-procedures"></i>
             <h3>bed facility</h3>
             <p>Experience comfort and rest in our modern bed facilities.</p>
@@ -192,20 +171,6 @@ if (isset($_POST['submit'])) {
             <h3>total care</h3>
             <p>Receive comprehensive care tailored to your unique needs.</p>
             <a href="services/care.php" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-calendar-alt"></i>
-            <h3>Convenient Scheduling</h3>
-            <p>Easily book appointments online with our user-friendly scheduling system.</p>
-            <a href="services/scheduling.php" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
-        </div>
-        
-        <div class="box">
-            <i class="fas fa-clock"></i>
-            <h3>Efficient Time Management</h3>
-            <p>Streamline your schedule and optimize resource allocation with our efficient time management tools.</p>
-            <a href="services/time.php" class="btn">Learn More <span class="fas fa-chevron-right"></span></a>
         </div>
 
     </div>
@@ -227,7 +192,7 @@ if (isset($_POST['submit'])) {
             <h3>Dr. Ida Tacata</h3>
             <span>Cardiologist</span>
             <div class="share">
-            <a href="https://www.facebook.com/profile.php?id=100088238226503" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="#" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
 
@@ -351,29 +316,21 @@ if (isset($_POST['submit'])) {
         <div class="box">
             <h3>our services</h3>
             <a href="services/free_checkups.php"> <i class="fas fa-chevron-right"></i> Free Checkups </a>
-            <a href="services/ambulance.php"> <i class="fas fa-chevron-right"></i> Ambulance Service </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service </a>
+            <a href="services/facilities.php"> <i class="fas fa-chevron-right"></i> Bed Facility </a>
+            <a href="services/care.php"> <i class="fas fa-chevron-right"></i> Total Care </a>
         </div>
 
         <div class="box">
             <h3>appointment info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +8801688238801 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +63 2 123 4567 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> MedAppoint@gmail.com</a>
+            <a href="#"> <i class="fas fa-envelope"></i> medappoint.sd5@gmail.com</a>
             <a href="#"> <i class="fas fa-map-marker-alt"></i> Manila, Philippines</a>
         </div>
 
         <div class="box">
             <h3>follow us</h3>
-            <a href="#"> <i class="fab fa-faceappointment-f"></i> faceappointment </a>
             <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
             <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
             <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
         </div>
 
     </div>

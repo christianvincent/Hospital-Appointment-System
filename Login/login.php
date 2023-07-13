@@ -7,7 +7,7 @@ $checkupSchedule = "Open 24/7";
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Free Checkups</title>
+    <title>Temporary title-this pafe is only for doctors</title>
     <!-- Add any necessary CSS or JavaScript files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style> 
@@ -160,7 +160,7 @@ $checkupSchedule = "Open 24/7";
     </header>
 
     <div class="container">
-        <h1>Ambulance Services</h1>
+        <h1>Temporary title-this page is only for doctors</h1>
         <p>Our ambulance services provide reliable and efficient transportation for medical emergencies and non-emergency situations. With a dedicated fleet of ambulances and a team of highly skilled medical professionals, we ensure that patients receive timely and safe transportation to the nearest medical facility.</p>
         <p>Our ambulance services include:</p>
         <ul>
