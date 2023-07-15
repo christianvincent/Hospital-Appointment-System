@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
             <a href="#services">services</a>
             <a href="#doctors">doctors</a>
             <a href="#appointment">appointment</a>
-        <a href="Login/login.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
+        <a href="Login/signup.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
         </nav>
 
 </header>
