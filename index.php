@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
             <a href="#services">services</a>
             <a href="#doctors">doctors</a>
             <a href="#appointment">appointment</a>
-        <a href="Login/signup.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
+        <a href="Login/login.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
         </nav>
 
 </header>
@@ -180,23 +180,31 @@ if (isset($_POST['submit'])) {
 <!-- services section ends -->
 
 <!-- doctors section starts  -->
-
+<?php
+$q = "SELECT * FROM doctor"; // doctor is the table's name
+$doctors = $conn->query($q);
+?>
 <section class="doctors" id="doctors">
 
     <h1 class="heading"> our <span>doctors</span> </h1>
 
     <div class="box-container">
-
+       <?php
+        while($row = mysqli_fetch_assoc($doctors)){
+       ?>
         <div class="box">
-            <img src="doctors/doc1.jpg" alt="">
-            <h3>Dr. Ida Tacata</h3>
-            <span>Cardiologist</span>
+            <?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row['dr_img']).'"alt="">' ?> <!-- the strings under the double quotes depends on the column names of the table -->
+            <h3><?php echo $row["name"] ?></h3>
+            <span><?php echo $row["specialization"] ?></span>
             <div class="share">
             <a href="#" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>
+        <?php
+        }
+        ?>
 
-        <div class="box">
+        <!--<div class="box">
             <img src="doctors/doc3.jpg" alt="">
             <h3>Dr. Rouel Mateo M. Azores</h3>
             <span>General Surgeon</span>
@@ -236,7 +244,7 @@ if (isset($_POST['submit'])) {
             <div class="share">
             <a href="https://www.facebook.com/titogarridomd/" target="_blank" class="fab fa-facebook-f"></a>
             </div>
-        </div>
+        </div>-->
 
 
 

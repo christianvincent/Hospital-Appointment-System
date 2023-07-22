@@ -7,7 +7,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Free Checkups</title>
+    <title>About Us</title>
     <!-- Add any necessary CSS or JavaScript files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
