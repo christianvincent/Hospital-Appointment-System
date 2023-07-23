@@ -197,12 +197,16 @@ $doctors = $conn->query($q);
             <h3><?php echo $row["name"] ?></h3>
             <span><?php echo $row["specialization"] ?></span>
             <div class="share">
-            <a href="#" target="_blank" class="fab fa-facebook-f"></a>
+            <a href=<?php echo $row["fb_link"] ?> target="_blank" class="fab fa-facebook-f"></a>
+            <a href=<?php echo $row["ig_link"] ?> target="_blank" class="fab fa-instagram"></a>
+            <a href=mailto:<?php echo $row["email_link"] ?> target="_blank" class="fa fa-envelope"></a>
             </div>
         </div>
         <?php
         }
         ?>
+    </div>
+</section>
 
         <!--<div class="box">
             <img src="doctors/doc3.jpg" alt="">
@@ -245,12 +249,6 @@ $doctors = $conn->query($q);
             <a href="https://www.facebook.com/titogarridomd/" target="_blank" class="fab fa-facebook-f"></a>
             </div>
         </div>-->
-
-
-
-    </div>
-
-</section>
 
 <!-- doctors section ends -->
 
