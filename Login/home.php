@@ -1,6 +1,11 @@
 <?php 
 require_once 'controllers/authController.php'; 
 
+if (isset($_GET['token'])) {
+    $token = $_GET['token'];
+    verifyUser($token);
+}
+
 if (!isset($_SESSION['id'])) {
     header('location: login.php');
     exit();
@@ -16,7 +21,7 @@ if (!isset($_SESSION['id'])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="style.css" class="css">
-    <title>Home Page</title>
+    <title>Verification Page</title>
 </head>
 
 <body>
@@ -49,7 +54,9 @@ if (!isset($_SESSION['id'])) {
                 <?php endif; ?>
 
                 <?php if($_SESSION['verified']): ?>
-                    <button class="btn btn-block btn-lg btn-primary">I am verified!</button>
+                    <div class="alert alert-warning">
+                    <a href="http://localhost:3000/index.php" class="btn"> I am verified! <span class="fas fa-chevron-right"></span> </a>
+                    </div>
                 <?php endif; ?>
                 
             </div>

@@ -1,45 +1,5 @@
 <?php
-
-$conn = mysqli_connect('localhost', 'root', '', 'contact_db') or die('connection failed');
-
-$message = array(); // Initialize an empty array to store validation messages
-
-if (isset($_POST['submit'])) {
-    // Validate name field
-    $name = mysqli_real_escape_string($conn, $_POST['name']);
-    if (empty($name)) {
-        $message[] = 'Please enter your name.';
-    }
-
-    // Validate email field
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    if (empty($email)) {
-        $message[] = 'Please enter your email.';
-    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $message[] = 'Please enter a valid email address.';
-    }
-
-    // Validate number field
-    $number = $_POST['number'];
-    if (empty($number)) {
-        $message[] = 'Please enter your number.';
-    } elseif (!preg_match('/^\d{11}$/', $number)) {
-        $message[] = 'Please enter a 11-digit number.';
-    }
-    
-    // If there are no validation errors, insert the data into the database
-    if (empty($message)) {
-        $date = $_POST['date'];
-
-        $insert = mysqli_query($conn, "INSERT INTO contact_form (name, email, number, date) VALUES ('$name', '$email', '$number', '$date')") or die('query failed');
-
-        if ($insert) {
-            $message[] = 'Appointment made successfully!';
-        } else {
-            $message[] = 'Appointment failed.';
-        }
-    }
-}
+require 'Login/controllers/emailver.php';
 ?>
 
 <html lang="en">
@@ -56,23 +16,41 @@ if (isset($_POST['submit'])) {
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>Med</strong>Appoint</a>
 
-
         <nav class="navbar">
             <a href="#home">home</a>
             <a href="#about">about</a>
             <a href="#services">services</a>
             <a href="#doctors">doctors</a>
             <a href="#appointment">appointment</a>
-        <a href="Login/login.php" class="btn"> Sign in/ Sign up <span class="fas fa-chevron-right"></span> </a>
+            <?php if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] === false): ?>
+            <!-- Show "Sign in/Sign up" button when not logged in -->
+            <a href="Login/login.php">Sign in/Sign up</a>
+            <?php else: ?>
+            <!-- Show "Logout" button when logged in -->
+            <a href="Login/login.php?logout=1">Logout</a>
+            <?php endif; ?>
         </nav>
 
 </header>
 
-
+<!-- flash message for verification/login -->
+<?php if(isset($_SESSION['message'])): ?>
+<section class="flash_message" id="flash_message">
+    <div>
+        <div class="alert <?php echo $_SESSION['alert-class']; ?>">
+        <h3>Welcome, <?php echo $_SESSION['username']; ?>!</h3>
+            <?php 
+                echo $_SESSION['message'];
+                unset($_SESSION['message']);
+                unset($_SESSION['alert-class']);
+            ?>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
     <div class="image">
         <img src="images/home-img.svg" alt="">
     </div>
@@ -276,11 +254,11 @@ $doctors = $conn->query($q);
                 
             
             <h3>Make an Appointment</h3>
-            <input type="text" name="name" placeholder="Last name, Given name, Middle Initial" class="box">
+            <input type="text" name="name" placeholder="Full Name" class="box">
             <input type="number" name="number" placeholder="Your 11-digit number" class="box">
             <input type="email" name="email" placeholder="Your email" class="box">
             <input type="date" name="date" class="box">
-            <input type="submit" name="submit" value="Appointment Now" class="btn">
+            <input type="submit" name="submit" value="Appoint Now" class="btn">
         </form>
 
     </div>
