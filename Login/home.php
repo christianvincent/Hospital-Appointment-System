@@ -29,11 +29,7 @@ if (!isset($_SESSION['id'])) {
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-4 form-div login">
-            <div class="logo-container">
-                <h2><strong>Med</strong>Appoint</h2>
-            </div>
           
-
             <?php if(isset($_SESSION['message'])): ?>
                 <div class="alert <?php echo $_SESSION['alert-class']; ?>">
                     <?php 
