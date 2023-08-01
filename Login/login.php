@@ -15,6 +15,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-4 form-div login">
+            <div class="logo-container">
+                <h2><strong>Med</strong>Appoint</h2>
+            </div>
                 <form action="login.php" method="post">
                     <h3 class="text-center">Login</h3>
 
